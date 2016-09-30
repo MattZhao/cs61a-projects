@@ -1,0 +1,18 @@
+Overview:
+
+This project is a geographic visualization of Twitter data across the USA. 
+
+A map would be generated to display how the people in different states feel about a keyword of your choice. An example would be “shopping”
+
+Collecting public Tweets that have been tagged with geographic locations and filtering for those that contain the keyword “shopping” query term,
+Assigning a sentiment (positive or negative) to each Tweet, based on all of the words it contains,
+Aggregating Tweets by the state with the closest geographic center, and finally
+Coloring each state according to the aggregate sentiment of its Tweets. Yellow means positive sentiment; blue means negative.
+
+
+
+Instructions:
+
+1. Go to the directory of Trend in Terminal or Git Bash.
+2. Key in “python3 trends.py -m XXX -t YYY”, where XXX is the keyword you want to search and YYY is the data file(.txt) 
+   An example would be “python3 trends.py -m christmas -t tweets2011.txt”
